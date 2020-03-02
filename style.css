@@ -1,0 +1,98 @@
+.box {
+    background-color: black;
+}
+
+.box2 {
+    margin: 15%;
+    background-color: dimgray;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+body {
+    background-image:url("../assets/crossline-dots.png");
+   background-size: 15%;
+	color: #fff;
+	display: flex;
+	font-family: Impact, sans-serif;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	min-height: 100vh;
+}
+.container {
+    background-color: #666a6d;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    margin: 0;
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .character-amount-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .number-input {
+    width: 2rem;
+  }
+  
+  .password-display {
+    background-color: rgb(14, 15, 19);
+    color: rgb(197, 197, 197);
+    padding: 1rem;
+    border: 1px solid #333;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: .5rem;
+  }
+
+  .password-display:hover{
+    background-color: rgba(22, 20, 20, 0.068);
+  }
+  
+  .btn {
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: .5rem;
+  }
+  
+  .btn:hover {
+    background-color: #FFFFFF33;
+  }
